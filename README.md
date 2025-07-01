@@ -21,3 +21,11 @@ Split and merge IFC files
 
 
 Free to use. Download under Releases on the right
+
+
+### Credits:
+
+this tool uses 
+ - https://github.com/ThatOpen/engine_web-ifc for fast and robust loading and processing of IFC files.
+ - Qt as GUI toolkit
+ - OpenSceneGraph for the 3D view
