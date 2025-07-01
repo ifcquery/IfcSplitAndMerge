@@ -6,8 +6,10 @@ First beta version.
 
 ### What works so far:
 - Load IFC file
-- 3D view of loaded model for visual selection of entities
-- Find and select entities by Express ID or GUID
+- 3D view of loaded model
+- Select elements in 3D view through single click or rubberband
+- Select elements in tree view
+- Find and select entities by Express ID or GUID via text input
 - Write IFC file with selected entities
 
 
