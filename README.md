@@ -1,7 +1,6 @@
 # IfcSplitAndMerge
 Split and merge IFC files
 
-First beta version. 
 
 
 ### What works so far:
