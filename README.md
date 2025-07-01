@@ -21,4 +21,4 @@ First beta version.
 ![Screenshot 2025-06-30 123232](https://github.com/user-attachments/assets/34a9a284-23e4-4ca3-8655-f94291c215d5)
 
 
-Free to use. Download under "Releases"
+Free to use. Download under Releases on the right
