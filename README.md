@@ -22,6 +22,11 @@ Split and merge IFC files
 
 Free to use. Download under Releases on the right
 
+### Use as SDK or base for other IFC applications
+
+You can use this tool as a template for your own IFC application, or parts of it for other applications.
+In case you are interested, pleace contact info at ifcquery.com
+
 
 ### Credits:
 
