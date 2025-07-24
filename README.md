@@ -3,7 +3,7 @@ Split and merge IFC files
 
 
 
-### What works so far:
+### Current features:
 - Load IFC file
 - 3D view of loaded model
 - Select elements in 3D view through single click or rubberband
@@ -12,7 +12,7 @@ Split and merge IFC files
 - Write IFC file with selected entities
 
 
-### What is missing yet
+### Planned features
 - Find and select by name, type, property sets etc not implemented yet
 - merging of several IFC models not implemented yet
 
