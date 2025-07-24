@@ -26,7 +26,7 @@ Free to use. Download under Releases on the right
 
 You can use this tool as a template for your own IFC application, or parts of it for other applications.
 The source code is very clean and minimalistic, perfect for easy maintenance and further development.
-In case you are interested, pleace contact info at ifcquery.com
+In case you are interested, please contact info at ifcquery.com
 
 
 ### Credits:
