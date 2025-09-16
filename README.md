@@ -8,7 +8,7 @@ Split and merge IFC files
 - 3D view of loaded model
 - Select elements in 3D view through single click or rubberband
 - Select elements in tree view
-- Find and select entities by Express ID or GUID via text input
+- Find and select entities by STEP ID (local ID, unique in each file) or GUID (globally unique ID) via text input
 - Write IFC file with selected entities
 
 
