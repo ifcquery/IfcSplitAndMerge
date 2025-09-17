@@ -7,6 +7,7 @@ Split and merge IFC files
 - Load IFC file
 - 3D view of loaded model
 - Select elements in 3D view through single click or rubberband
+- Mesh compression (deduplication, quantization) for efficient rendering of large meshes.
 - Select elements in tree view
 - Find and select entities by STEP ID (local ID, unique in each file) or GUID (globally unique ID) via text input
 - Write IFC file with selected entities
