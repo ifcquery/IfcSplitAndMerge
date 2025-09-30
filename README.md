@@ -23,6 +23,16 @@ Split and merge IFC files
 
 <img width="2550" height="1696" alt="image" src="https://github.com/user-attachments/assets/d92d3dba-26e6-4eed-8cf7-1b3d33e8e489" />
 
+#### Select elements:
+<img width="2546" height="1691" alt="image" src="https://github.com/user-attachments/assets/b1f83793-1621-4f88-8231-9c1a35b141a3" />
+
+#### Write file with selected elements:
+<img width="2550" height="667" alt="image" src="https://github.com/user-attachments/assets/66fa768f-4237-45de-a3cb-7cf6d66632bf" />
+
+#### Result: IFC file with only the selected elements:
+<img width="2547" height="812" alt="image" src="https://github.com/user-attachments/assets/c36d59b5-1a8e-451e-9f15-ad72d14ab5b8" />
+
+
 Free to use. Download under Releases on the right
 
 ### Use as SDK or base for other IFC applications
