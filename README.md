@@ -6,7 +6,7 @@ Split and merge IFC files
 ### Current features:
 - Load IFC file
 - 3D view of loaded model
-- Mesh compression (deduplication, quantization) for efficient rendering of large meshes.
+- Mesh compression (deduplication, quantization) for efficient rendering of large models.
 - Select elements in 3D view through single click or rubberband
 - Select elements in tree view
 - Find and select entities by STEP ID (local ID, unique in each file) or GUID (globally unique ID) via text input
