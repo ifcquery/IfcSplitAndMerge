@@ -21,6 +21,8 @@ Split and merge IFC files
 ![Screenshot 2025-06-30 123232](https://github.com/user-attachments/assets/34a9a284-23e4-4ca3-8655-f94291c215d5)
 
 
+<img width="2550" height="1696" alt="image" src="https://github.com/user-attachments/assets/d92d3dba-26e6-4eed-8cf7-1b3d33e8e489" />
+
 Free to use. Download under Releases on the right
 
 ### Use as SDK or base for other IFC applications
