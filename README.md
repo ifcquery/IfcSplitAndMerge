@@ -23,7 +23,7 @@ Split and merge IFC files
 
 <img width="2550" height="1696" alt="image" src="https://github.com/user-attachments/assets/d92d3dba-26e6-4eed-8cf7-1b3d33e8e489" />
 
-#### Select elements:
+#### Select elements in 3D view (single or rubberband selection), treeview, or text input search criteria:
 <img width="2546" height="1691" alt="image" src="https://github.com/user-attachments/assets/b1f83793-1621-4f88-8231-9c1a35b141a3" />
 
 #### Write file with selected elements:
