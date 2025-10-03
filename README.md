@@ -23,7 +23,7 @@ Split and merge IFC files
 
 <img width="2550" height="1696" alt="image" src="https://github.com/user-attachments/assets/d92d3dba-26e6-4eed-8cf7-1b3d33e8e489" />
 
-IFC 4X3 Infrastructure elements test model: **[⬇️ Download ViadottoAcerno.zip](https://github.com/user-attachments/files/15805837/ViadottoAcerno.zip)**
+IFC4.3 Infrastructure elements test model: **[⬇️ Download ViadottoAcerno.zip](https://github.com/user-attachments/files/15805837/ViadottoAcerno.zip)**
 
 
 #### Select elements in 3D view (single or rubberband selection), treeview, or text input search criteria:
