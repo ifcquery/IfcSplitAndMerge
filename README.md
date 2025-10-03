@@ -36,7 +36,8 @@ IFC4.3 Infrastructure elements test model: **[⬇️ Download ViadottoAcerno.zip
 <img width="2547" height="812" alt="image" src="https://github.com/user-attachments/assets/c36d59b5-1a8e-451e-9f15-ad72d14ab5b8" />
 
 
-Free to use. Download under Releases on the right
+Free to use. **[⬇️ Download IfcSplitAndMerge](https://github.com/ifcquery/IfcSplitAndMerge/releases)**
+
 
 ### Use as SDK or base for other IFC applications
 
