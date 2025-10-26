@@ -10,7 +10,7 @@ Split and merge IFC files
 - Select elements in 3D view through single click or rubberband
 - Select elements in tree view
 - Find and select entities by STEP ID (local ID, unique in each file) or GUID (globally unique ID) via text input
-- Write IFC file with selected entities
+- Split feature: Write IFC file with selected entities. Selecting objects like IfcBuildingStorey or single objects with any of the above mentioned selection methods.
 
 
 ### Planned features
@@ -46,9 +46,21 @@ The source code is very clean and minimalistic, perfect for easy maintenance and
 In case you are interested, please contact info at ifcquery.com
 
 
+### IFC files for testing:
+https://github.com/ThatOpen/engine_web-ifc/tree/main/tests/ifcfiles/public
+
+https://github.com/user-attachments/files/15805837/ViadottoAcerno.zip
+
+
 ### Credits:
 
 this tool uses 
  - https://github.com/ThatOpen/engine_web-ifc for fast and robust loading and processing of IFC files.
  - Qt as GUI toolkit
  - OpenSceneGraph for the 3D view
+
+<img width="2901" height="1717" alt="image" src="https://github.com/user-attachments/assets/ed7d6657-377f-440d-baf9-d213f8158b7e" />
+
+<img width="2903" height="1719" alt="image" src="https://github.com/user-attachments/assets/6a726c33-1a25-410a-ac6e-e8e8d869117d" />
+
+
