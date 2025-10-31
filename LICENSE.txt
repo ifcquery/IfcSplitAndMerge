@@ -1,19 +1,34 @@
-The MIT License (MIT)
+END-USER LICENSE AGREEMENT (EULA)
+This End-User License Agreement ("EULA") is a legal agreement between you (an individual or a single entity) and IFCQUERY ("Licensor") regarding the use of the IfcSplitAndMerge application ("Software").
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+By downloading, installing, or using the Software, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not download, install, or use the Software.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. GRANT OF LICENSE
+The Licensor grants you a non-exclusive, non-transferable, royalty-free, limited license to install and use the Software binary (the executable) for personal or internal business purposes.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. RESTRICTIONS
+You agree not to, and you will not permit others to:
+
+A. Redistribution and Publication: Sell, rent, lease, sublicense, transfer, publish, distribute, or otherwise commercially exploit the Software, in whole or in part.
+
+B. Source Code: Access, view, use, or otherwise obtain the source code of the Software. The source code is proprietary and is not licensed under this EULA.
+
+C. Modification and Reverse Engineering: Modify, adapt, translate, reverse engineer, decompile, disassemble, or attempt to derive the source code from the Software.
+
+D. Derivative Works: Create derivative works based on the Software.
+
+E. Commercial Products: Integrate the Software into any product or service intended for sale or commercial distribution to third parties.
+
+3. OWNERSHIP
+The Licensor retains all title, interest, and ownership rights, including all intellectual property rights, in and to the Software. The Software is protected by copyright laws and international treaty provisions.
+
+4. TERMINATION
+This EULA is effective until terminated. Your rights under this EULA will terminate automatically without notice from the Licensor if you fail to comply with any term(s) of this EULA. Upon termination, you must cease all use of the Software and destroy all copies of the Software in your possession.
+
+5. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+By using this Software, you acknowledge that you have read this EULA, understand it, and agree to be bound by its terms and conditions.
