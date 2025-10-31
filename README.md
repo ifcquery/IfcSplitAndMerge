@@ -41,7 +41,7 @@ Free to use. **[⬇️ Download IfcSplitAndMerge](https://github.com/ifcquery/If
 
 You can use this tool as a template for your own IFC application, or parts of it for other applications.
 The source code is very clean and minimalistic, perfect for easy maintenance and further development.
-In case you are interested, please contact info&#40;&#97;&#116;&#41;ifcquery&#46;&#99;&#111;&#109;
+To request access to the source code, please go to [www.ifcquery.com](https://ifcquery.com/)
 
 
 ### IFC files for testing:
