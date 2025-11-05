@@ -11,11 +11,11 @@ Split and merge IFC files
 - Select elements in tree view
 - Find and select entities by STEP ID (local ID, unique in each file), GUID (globally unique ID), name or description via text input
 - Split feature: Write IFC file with selected entities. Selecting objects like IfcBuildingStorey or single objects with any of the above mentioned selection methods.
-
+- Merge feature: Write IFC file of merged models
 
 ### Planned features
-- Find and select by type, property sets etc not implemented yet
-- Writing IFC files of merged models not implemented yet
+- Find and select by type, property sets etc
+
 
 
 ![Screenshot 2025-06-30 123232](https://github.com/user-attachments/assets/34a9a284-23e4-4ca3-8655-f94291c215d5)
