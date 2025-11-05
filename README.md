@@ -1,5 +1,5 @@
 # IfcSplitAndMerge
-Split and merge IFC files
+View, split and merge IFC files
 
 
 
