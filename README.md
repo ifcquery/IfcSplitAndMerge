@@ -12,6 +12,9 @@ View, split and merge IFC files
 - Find and select entities by STEP ID (local ID, unique in each file), GUID (globally unique ID), name or description via text input
 - Split feature: Write IFC file with selected entities. Selecting objects like IfcBuildingStorey or single objects with any of the above mentioned selection methods.
 - Merge feature: Write IFC file of merged models
+- Save IFC model as html document with embedded geometry and meta data
+- Very low memory footprint: loading several GByte IFC files works fine on standard PCs
+  
 
 ### Planned features
 - Find and select by type, property sets etc
