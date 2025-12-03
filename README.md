@@ -34,7 +34,7 @@ View, split and merge IFC files
 Free to use. **[⬇️ Download IfcSplitAndMerge](https://github.com/ifcquery/IfcSplitAndMerge/releases)**
 
 
-### Use as SDK or base for other IFC applications
+### Access to source code: use as SDK or base for other IFC applications
 
 You can use this tool as a template for your own IFC application, or parts of it for other applications.
 The source code is very clean and minimalistic, perfect for easy maintenance and further development.
