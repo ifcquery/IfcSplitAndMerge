@@ -54,8 +54,23 @@ this tool uses
  - Qt as GUI toolkit
  - OpenSceneGraph for the 3D view
 
+S_Office_Integrated Design Archi.ifc (from https://github.com/ThatOpen/engine_web-ifc/tree/main/tests/ifcfiles/public)
+
 <img width="2901" height="1717" alt="image" src="https://github.com/user-attachments/assets/ed7d6657-377f-440d-baf9-d213f8158b7e" />
 
+<br/><br/>
+
+ISSUE_102_M3D-CON-CD.ifc
+
+<img width="2399" height="1628" alt="image" src="https://github.com/user-attachments/assets/622ab99e-fec4-49f9-b0ba-2ce9a957ec24" />
+
+
 <img width="2903" height="1719" alt="image" src="https://github.com/user-attachments/assets/6a726c33-1a25-410a-ac6e-e8e8d869117d" />
+
+<br/><br/>
+advanced_model.ifc
+
+<img width="2399" height="1628" alt="Screenshot 2025-12-08 100014" src="https://github.com/user-attachments/assets/4d5e9487-7320-40bf-b8c1-b96f4f81c3b5" />
+
 
 
