@@ -70,4 +70,8 @@ advanced_model.ifc
 <img width="900" alt="Screenshot 2025-12-08 100014" src="https://github.com/user-attachments/assets/4d5e9487-7320-40bf-b8c1-b96f4f81c3b5" />
 
 
+19_rue_Marc_Antoine_Petit
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/5387a254-66ce-47b3-9431-c742ab02438a" />
+
+
 
