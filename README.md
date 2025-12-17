@@ -14,10 +14,7 @@ View, split and merge IFC files
 - Merge: Write merged IFC file of several loaded IFC files
 - Save IFC model as html document with embedded geometry and meta data
 - Very low memory footprint: loading several GByte IFC files works fine on standard PCs
-  
-
-### Planned features
-- Find and select by type, property sets etc
+- Full text search in all property sets and properties -> select elements -> write to new IFC file
 
 
 
