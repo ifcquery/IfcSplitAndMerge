@@ -17,18 +17,27 @@ View, split and merge IFC files
 - Full text search in all property sets and properties -> select elements -> write to new IFC file
 
 
+### Download for free
+[https://github.com/ifcquery/IfcSplitAndMerge/releases](https://github.com/ifcquery/IfcSplitAndMerge/releases) 
 
-#### Select elements in 3D view (single or rubberband selection), treeview, or text input search criteria:
+
+### Example use case
+
+Select elements in 3D view (single or rubberband selection), treeview, or text input search criteria:
+
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/b1f83793-1621-4f88-8231-9c1a35b141a3" />
 
-#### Write file with selected elements:
+
+Write file with selected elements:
+
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/66fa768f-4237-45de-a3cb-7cf6d66632bf" />
 
-#### Result: IFC file with only the selected elements:
+
+Result: IFC file with only the selected elements:
+
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/c36d59b5-1a8e-451e-9f15-ad72d14ab5b8" />
 
 
-Free to use. **[⬇️ Download IfcSplitAndMerge](https://github.com/ifcquery/IfcSplitAndMerge/releases)**
 
 
 ### Access to source code: use as SDK or base for other IFC applications
