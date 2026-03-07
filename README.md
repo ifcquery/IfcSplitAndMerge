@@ -84,12 +84,19 @@ advanced_model.ifc
 
 
 ### Example for full-text search
-Search for "new" in property sets -> elements get selected:
+Search for "new" in property sets 
+
+&nbsp; -> in this file, several elements have a property set with a property "Renovation Status": "New"
+
+&nbsp; -> matching elements get selected:
 <img width="900" height="1069" alt="image" src="https://github.com/user-attachments/assets/d87804d5-2201-47d1-9b2b-cfdaea6323db" />
 
+&nbsp;
 Write to file:
+
 <img width="900" height="387" alt="image" src="https://github.com/user-attachments/assets/c5ea74dc-2a73-4949-80ed-015cda648ba0" />
 
+&nbsp;
 Open result file which contains only the selected elements:
 <img width="900" height="1069" alt="image" src="https://github.com/user-attachments/assets/a1c897e4-7f6f-46f0-ba0d-3f5a5ab61ba7" />
 
