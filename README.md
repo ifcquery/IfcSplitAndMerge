@@ -56,7 +56,7 @@ https://github.com/user-attachments/files/15805837/ViadottoAcerno.zip
 ### Credits:
 
 this tool uses 
- - https://github.com/ThatOpen/engine_web-ifc for fast and robust loading and processing of IFC files.
+ - https://github.com/ThatOpen/engine_web-ifc (with additional changes from https://github.com/Creoox/engine_web-ifc) for fast and robust loading and processing of IFC files.
  - Qt as GUI toolkit
  - OpenSceneGraph for the 3D view
 
