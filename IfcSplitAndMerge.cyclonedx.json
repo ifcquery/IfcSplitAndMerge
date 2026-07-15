@@ -39,7 +39,7 @@
       "properties": [
         {
           "name": "source:project-file",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\IfcSplitAndMerge.vcxproj"
+          "value": "IfcSplitAndMerge.vcxproj"
         },
         {
           "name": "source:project-file-sha256",
@@ -47,7 +47,7 @@
         },
         {
           "name": "source:version-source",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\IfcSplitAndMerge.wxs"
+          "value": "IfcSplitAndMerge.wxs"
         },
         {
           "name": "source:ui-title-version",
@@ -107,7 +107,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\Qt\\LICENSE"
+          "value": "release\\third_party\\licenses\\Qt\\LICENSE"
         },
         {
           "name": "runtime:dlls",
@@ -141,7 +141,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\OpenSceneGraph\\LICENSE.txt"
+          "value": "release\\third_party\\licenses\\OpenSceneGraph\\LICENSE.txt"
         },
         {
           "name": "runtime:dlls",
@@ -228,15 +228,15 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\web-ifc"
+          "value": "src\\external\\web-ifc"
         },
         {
           "name": "local:version-file",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\version.h"
+          "value": "src\\external\\version.h"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\engine_web-ifc\\LICENSE.md"
+          "value": "release\\third_party\\licenses\\engine_web-ifc\\LICENSE.md"
         }
       ],
       "externalReferences": [
@@ -261,11 +261,11 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser"
+          "value": "src\\external\\rvmparser"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\LICENSE"
+          "value": "src\\external\\rvmparser\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -291,15 +291,15 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\libs\\libtess2"
+          "value": "src\\external\\rvmparser\\libs\\libtess2"
         },
         {
           "name": "local:version-file",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\libs\\libtess2\\README.md"
+          "value": "src\\external\\rvmparser\\libs\\libtess2\\README.md"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\libs\\libtess2\\LICENSE.txt"
+          "value": "src\\external\\rvmparser\\libs\\libtess2\\LICENSE.txt"
         }
       ],
       "externalReferences": [
@@ -325,7 +325,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\cdt-src"
+          "value": "src\\external\\cdt-src"
         },
         {
           "name": "git:commit",
@@ -333,7 +333,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\cdt-src\\LICENSE"
+          "value": "src\\external\\cdt-src\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -358,7 +358,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\earcut-src"
+          "value": "src\\external\\earcut-src"
         },
         {
           "name": "git:commit",
@@ -366,7 +366,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\earcut-src\\LICENSE"
+          "value": "src\\external\\earcut-src\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -390,7 +390,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\fastfloat-src"
+          "value": "src\\external\\fastfloat-src"
         },
         {
           "name": "git:commit",
@@ -398,7 +398,7 @@
         },
         {
           "name": "local:version-source",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\fastfloat-src\\CMakeLists.txt"
+          "value": "src\\external\\fastfloat-src\\CMakeLists.txt"
         }
       ],
       "externalReferences": [
@@ -429,7 +429,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\glm-src"
+          "value": "src\\external\\glm-src"
         },
         {
           "name": "git:commit",
@@ -437,7 +437,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\glm-src\\copying.txt"
+          "value": "src\\external\\glm-src\\copying.txt"
         }
       ],
       "externalReferences": [
@@ -463,15 +463,15 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\nlohmann"
+          "value": "src\\external\\nlohmann"
         },
         {
           "name": "local:version-source",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\nlohmann\\detail\\abi_macros.hpp"
+          "value": "src\\external\\nlohmann\\detail\\abi_macros.hpp"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\nlohmann\\LICENSE.MIT"
+          "value": "release\\third_party\\licenses\\nlohmann\\LICENSE.MIT"
         }
       ],
       "externalReferences": [
@@ -497,7 +497,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\spdlog-src"
+          "value": "src\\external\\spdlog-src"
         },
         {
           "name": "git:commit",
@@ -505,7 +505,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\spdlog-src\\LICENSE"
+          "value": "src\\external\\spdlog-src\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -531,7 +531,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\stduuid-src"
+          "value": "src\\external\\stduuid-src"
         },
         {
           "name": "git:commit",
@@ -539,7 +539,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\stduuid-src\\LICENSE"
+          "value": "src\\external\\stduuid-src\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -564,7 +564,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\tinynurbs-src"
+          "value": "src\\external\\tinynurbs-src"
         },
         {
           "name": "git:commit",
@@ -572,7 +572,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\tinynurbs-src\\LICENSE"
+          "value": "src\\external\\tinynurbs-src\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -597,7 +597,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\tiny_gltf.h"
+          "value": "src\\external\\tiny_gltf.h"
         },
         {
           "name": "local:file-sha256",
@@ -605,7 +605,7 @@
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\tinygltf\\LICENSE.txt"
+          "value": "release\\third_party\\licenses\\tinygltf\\LICENSE.txt"
         },
         {
           "name": "compile:defines",
@@ -635,11 +635,11 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\xxHash"
+          "value": "src\\external\\xxHash"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\xxHash\\LICENSE"
+          "value": "src\\external\\xxHash\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -665,11 +665,11 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\magic_enum"
+          "value": "src\\external\\magic_enum"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\magic_enum\\LICENSE"
+          "value": "src\\external\\magic_enum\\LICENSE"
         }
       ],
       "externalReferences": [
@@ -693,7 +693,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\zippy\\zippy.hpp"
+          "value": "src\\external\\zippy\\zippy.hpp"
         },
         {
           "name": "local:file-sha256",
@@ -719,11 +719,11 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\nowide"
+          "value": "src\\external\\nowide"
         },
         {
           "name": "local:license-path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\nowide\\LICENSE_1_0.txt"
+          "value": "release\\third_party\\licenses\\nowide\\LICENSE_1_0.txt"
         }
       ],
       "externalReferences": [
@@ -748,7 +748,7 @@
       "properties": [
         {
           "name": "local:path",
-          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\zippy\\zippy.hpp"
+          "value": "src\\external\\zippy\\zippy.hpp"
         },
         {
           "name": "local:version-source",
@@ -888,3 +888,4 @@
     }
   ]
 }
+
