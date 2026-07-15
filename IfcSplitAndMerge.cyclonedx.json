@@ -1,0 +1,890 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:29572e2c-c2a5-4fac-8007-2c552166e6a8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-15T10:11:43Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "Codex local SBOM generator",
+          "version": "1.0"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OpenAI Codex"
+      }
+    ],
+    "supplier": {
+      "name": "IFCQUERY"
+    },
+    "component": {
+      "bom-ref": "application:IfcSplitAndMerge@1.33.0",
+      "type": "application",
+      "group": "ifcquery",
+      "name": "IfcSplitAndMerge",
+      "version": "1.33.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Commercial Source Code License Agreement (CSLA)"
+          }
+        }
+      ],
+      "purl": "pkg:generic/ifcquery/IfcSplitAndMerge@1.33.0",
+      "properties": [
+        {
+          "name": "source:project-file",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\IfcSplitAndMerge.vcxproj"
+        },
+        {
+          "name": "source:project-file-sha256",
+          "value": "71fe2c6ff1f9b3d781267f444662e111879e88c277d5629f48686b321a67e686"
+        },
+        {
+          "name": "source:version-source",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\IfcSplitAndMerge.wxs"
+        },
+        {
+          "name": "source:ui-title-version",
+          "value": "1.35"
+        },
+        {
+          "name": "msbuild:project-guid",
+          "value": "{B29E9163-B5E1-4224-9471-D9A9567A99F6}"
+        },
+        {
+          "name": "msbuild:platform-toolset",
+          "value": "v145"
+        },
+        {
+          "name": "msbuild:language-standard",
+          "value": "stdcpp20"
+        },
+        {
+          "name": "msbuild:platform",
+          "value": "x64"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source-level SBOM generated from IfcSplitAndMerge.vcxproj, local includes, linked libraries, and runtime DLL declarations."
+      },
+      {
+        "name": "sbom:generator-note",
+        "value": "Versions are recorded when local project metadata exposes them; otherwise components are left unversioned and traced by path or commit."
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "library:qt@6.10.2",
+      "type": "library",
+      "name": "Qt",
+      "version": "6.10.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Qt commercial or open-source terms"
+          }
+        }
+      ],
+      "purl": "pkg:generic/qt/qt@6.10.2",
+      "properties": [
+        {
+          "name": "msbuild:QtInstall",
+          "value": "6.10.2"
+        },
+        {
+          "name": "msbuild:QtModules",
+          "value": "core;gui;widgets;concurrent;opengl;openglwidgets"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\Qt\\LICENSE"
+        },
+        {
+          "name": "runtime:dlls",
+          "value": "Qt6Core.dll;Qt6Concurrent.dll;Qt6Gui.dll;Qt6OpenGL.dll;Qt6OpenGLWidgets.dll;Qt6Widgets.dll"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.qt.io/"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:openscenegraph@3.7.0",
+      "type": "library",
+      "name": "OpenSceneGraph",
+      "version": "3.7.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "OpenSceneGraph Public License, Version 1.0"
+          }
+        }
+      ],
+      "purl": "pkg:github/openscenegraph/OpenSceneGraph@3.7.0",
+      "properties": [
+        {
+          "name": "msbuild:AdditionalLibraryDirectories",
+          "value": "$(OSG_DIR)\\build\\lib"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\OpenSceneGraph\\LICENSE.txt"
+        },
+        {
+          "name": "runtime:dlls",
+          "value": "osg202-osg.dll;osg202-osgAnimation.dll;osg202-osgDB.dll;osg202-osgFX.dll;osg202-osgGA.dll;osg202-osgManipulator.dll;osg202-osgText.dll;osg202-osgUtil.dll;osg202-osgViewer.dll;osgdb_freetype.dll"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/openscenegraph/OpenSceneGraph"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:openthreads@3.7.0",
+      "type": "library",
+      "name": "OpenThreads",
+      "version": "3.7.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "OpenSceneGraph Public License, Version 1.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "source:note",
+          "value": "Distributed with OpenSceneGraph in this project build."
+        },
+        {
+          "name": "runtime:dlls",
+          "value": "ot21-OpenThreads.dll"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/openscenegraph/OpenSceneGraph"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:msvc-runtime",
+      "type": "library",
+      "name": "Microsoft Visual C++ Runtime",
+      "licenses": [
+        {
+          "license": {
+            "name": "Microsoft Software License Terms"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "msbuild:platform-toolset",
+          "value": "v145"
+        },
+        {
+          "name": "runtime:dlls",
+          "value": "concrt140.dll;msvcp140.dll;msvcp140_1.dll;msvcp140_2.dll;msvcp140_atomic_wait.dll;msvcp140_codecvt_ids.dll;vcamp140.dll;vccorlib140.dll;vcomp140.dll;vcruntime140.dll;vcruntime140_1.dll;vcruntime140_threads.dll"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:web-ifc@0.0.69",
+      "type": "library",
+      "name": "web-ifc",
+      "version": "0.0.69",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:generic/web-ifc@0.0.69",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\web-ifc"
+        },
+        {
+          "name": "local:version-file",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\version.h"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\engine_web-ifc\\LICENSE.md"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ThatOpen/engine_web-ifc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:rvmparser",
+      "type": "library",
+      "name": "rvmparser",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:github/cdyk/rvmparser",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/cdyk/rvmparser"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:libtess2@1.0.2",
+      "type": "library",
+      "name": "libtess2",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "SGI Free Software License B v2.0"
+          }
+        }
+      ],
+      "purl": "pkg:github/memononen/libtess2@1.0.2",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\libs\\libtess2"
+        },
+        {
+          "name": "local:version-file",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\libs\\libtess2\\README.md"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\rvmparser\\libs\\libtess2\\LICENSE.txt"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/memononen/libtess2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:cdt@1.2.0",
+      "type": "library",
+      "name": "CDT",
+      "version": "1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:github/artem-ogre/CDT@1.2.0",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\cdt-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "4d0c9026b8ec846fe544897e7111f8f9080d5f8a"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\cdt-src\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/artem-ogre/CDT"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:earcut.hpp@4811a2b69b91f6127a75e780de6e2113609ddabb",
+      "type": "library",
+      "name": "earcut.hpp",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:github/mapbox/earcut.hpp@4811a2b69b91f6127a75e780de6e2113609ddabb",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\earcut-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "4811a2b69b91f6127a75e780de6e2113609ddabb"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\earcut-src\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/mapbox/earcut.hpp"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:fast_float@5.1.0",
+      "type": "library",
+      "name": "fast_float",
+      "version": "5.1.0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSL-1.0 OR MIT"
+        }
+      ],
+      "purl": "pkg:github/fastfloat/fast_float@5.1.0",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\fastfloat-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "2b2395f9ac836ffca6404424bcc252bff7aa80e4"
+        },
+        {
+          "name": "local:version-source",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\fastfloat-src\\CMakeLists.txt"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/fastfloat/fast_float"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:glm@1.0.3",
+      "type": "library",
+      "name": "GLM",
+      "version": "1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "name": "Happy Bunny License"
+          }
+        }
+      ],
+      "purl": "pkg:github/g-truc/glm@1.0.3",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\glm-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "8d1fd52e5ab5590e2c81768ace50c72bae28f2ed"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\glm-src\\copying.txt"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/g-truc/glm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:nlohmann-json@3.11.3",
+      "type": "library",
+      "name": "JSON for Modern C++",
+      "version": "3.11.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:github/nlohmann/json@3.11.3",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\nlohmann"
+        },
+        {
+          "name": "local:version-source",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\nlohmann\\detail\\abi_macros.hpp"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\nlohmann\\LICENSE.MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/nlohmann/json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:spdlog@1.15.1",
+      "type": "library",
+      "name": "spdlog",
+      "version": "1.15.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:github/gabime/spdlog@1.15.1",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\spdlog-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "f355b3d58f7067eee1706ff3c801c2361011f3d5"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\spdlog-src\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/gabime/spdlog"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:stduuid@1.0",
+      "type": "library",
+      "name": "stduuid",
+      "version": "1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:github/mariusbancila/stduuid@1.0",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\stduuid-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "3afe7193facd5d674de709fccc44d5055e144d7a"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\stduuid-src\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/mariusbancila/stduuid"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:tinynurbs@47115cd9b6e922b27bbc4ab01fdeac2e9ea597a4",
+      "type": "library",
+      "name": "tinynurbs",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:github/QuimMoya/tinynurbs@47115cd9b6e922b27bbc4ab01fdeac2e9ea597a4",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\tinynurbs-src"
+        },
+        {
+          "name": "git:commit",
+          "value": "47115cd9b6e922b27bbc4ab01fdeac2e9ea597a4"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\tinynurbs-src\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/QuimMoya/tinynurbs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:tinygltf@2.9.x",
+      "type": "library",
+      "name": "tinygltf",
+      "version": "2.9.x",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\tiny_gltf.h"
+        },
+        {
+          "name": "local:file-sha256",
+          "value": "e9c55e35b2b1c2cd7668d8e5eea1884b737bf6267a2dc97152d65ce6e5796917"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\tinygltf\\LICENSE.txt"
+        },
+        {
+          "name": "compile:defines",
+          "value": "TINYGLTF_NO_STB_IMAGE;TINYGLTF_NO_STB_IMAGE_WRITE;TINYGLTF_IMPLEMENTATION"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/syoyo/tinygltf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:xxhash@0.8.3",
+      "type": "library",
+      "name": "xxHash",
+      "version": "0.8.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:github/Cyan4973/xxHash@v0.8.3",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\xxHash"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\xxHash\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Cyan4973/xxHash"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:magic_enum@0.9.7",
+      "type": "library",
+      "name": "magic_enum",
+      "version": "0.9.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:github/Neargye/magic_enum@v0.9.7",
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\magic_enum"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\magic_enum\\LICENSE"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Neargye/magic_enum"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:zippy",
+      "type": "library",
+      "name": "zippy",
+      "licenses": [
+        {
+          "license": {
+            "name": "Header includes miniz public domain/Unlicense text"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\zippy\\zippy.hpp"
+        },
+        {
+          "name": "local:file-sha256",
+          "value": "f441147d69ed3c54d296bccbb1c79a25d008d7acb7c99b1676b68850a92c48c1"
+        },
+        {
+          "name": "embedded:miniz-version",
+          "value": "10.0.3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:boost-nowide",
+      "type": "library",
+      "name": "Boost.Nowide",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSL-1.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\nowide"
+        },
+        {
+          "name": "local:license-path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\release\\third_party\\licenses\\nowide\\LICENSE_1_0.txt"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/boostorg/nowide"
+        }
+      ]
+    },
+    {
+      "bom-ref": "library:miniz@10.0.3",
+      "type": "library",
+      "name": "miniz",
+      "version": "10.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Unlicense"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "local:path",
+          "value": "E:\\work\\ifcquery\\IfcSplitAndMerge\\src\\external\\zippy\\zippy.hpp"
+        },
+        {
+          "name": "local:version-source",
+          "value": "MZ_VERSION macro in zippy.hpp"
+        },
+        {
+          "name": "local:embedded-in",
+          "value": "zippy"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/richgel999/miniz"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "application:IfcSplitAndMerge@1.33.0",
+      "dependsOn": [
+        "library:qt@6.10.2",
+        "library:openscenegraph@3.7.0",
+        "library:openthreads@3.7.0",
+        "library:msvc-runtime",
+        "library:web-ifc@0.0.69",
+        "library:rvmparser",
+        "library:tinygltf@2.9.x",
+        "library:nlohmann-json@3.11.3",
+        "library:glm@1.0.3",
+        "library:xxhash@0.8.3",
+        "library:zippy",
+        "library:magic_enum@0.9.7"
+      ]
+    },
+    {
+      "ref": "library:web-ifc@0.0.69",
+      "dependsOn": [
+        "library:spdlog@1.15.1",
+        "library:fast_float@5.1.0",
+        "library:stduuid@1.0",
+        "library:tinynurbs@47115cd9b6e922b27bbc4ab01fdeac2e9ea597a4",
+        "library:cdt@1.2.0",
+        "library:earcut.hpp@4811a2b69b91f6127a75e780de6e2113609ddabb",
+        "library:glm@1.0.3"
+      ]
+    },
+    {
+      "ref": "library:rvmparser",
+      "dependsOn": [
+        "library:libtess2@1.0.2"
+      ]
+    },
+    {
+      "ref": "library:tinynurbs@47115cd9b6e922b27bbc4ab01fdeac2e9ea597a4",
+      "dependsOn": [
+        "library:glm@1.0.3"
+      ]
+    },
+    {
+      "ref": "library:tinygltf@2.9.x",
+      "dependsOn": [
+        "library:nlohmann-json@3.11.3"
+      ]
+    },
+    {
+      "ref": "library:zippy",
+      "dependsOn": [
+        "library:boost-nowide",
+        "library:miniz@10.0.3"
+      ]
+    },
+    {
+      "ref": "library:qt@6.10.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:openscenegraph@3.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:openthreads@3.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:msvc-runtime",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:libtess2@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:cdt@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:earcut.hpp@4811a2b69b91f6127a75e780de6e2113609ddabb",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:fast_float@5.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:glm@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:nlohmann-json@3.11.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:spdlog@1.15.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:stduuid@1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:xxhash@0.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:magic_enum@0.9.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:boost-nowide",
+      "dependsOn": []
+    },
+    {
+      "ref": "library:miniz@10.0.3",
+      "dependsOn": []
+    }
+  ]
+}
