@@ -1,9 +1,18 @@
-# IfcSplitAndMerge
+## New web-browser based split-and-merge application: xeoIFC
+
+xeoIFC is newer, using the latest WebAssembly and WebGPU technology. The geometry quality and robustness is better than IfcSplitAndMerge (this repo). 
+
+Even the performance is better than basically all other IFC viewers:<br>
+[https://xeofoundry.github.io/xeoIFC/](https://xeofoundry.github.io/xeoIFC/)
+
+All the examples below for IfcSplitAndMerge also load, render, split & merge in xeoIFC.
+
+---
+
+# IfcSplitAndMerge (this repo, using C++ and Qt)
 View, split and merge IFC files
 
-
-
-### Current features:
+### Current features of IfcSplitAndMerge:
 - Load IFC file, extract element hierarchy into tree view
 - 3D view of loaded model
 - Mesh compression (deduplication, quantization) for efficient rendering of large models
