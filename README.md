@@ -1,9 +1,9 @@
 ## New web-browser based split-and-merge application: xeoIFC
 
-xeoIFC is newer, using the latest WebAssembly and WebGPU technology. The geometry quality and robustness is better than IfcSplitAndMerge (this repo). 
+xeoIFC is newer, using the latest WebAssembly and WebGPU technology. The geometry quality and robustness is better than IfcSplitAndMerge (this repo).
 
-**Extremely high performance in the browser, desktop and server.** In the [Garabit viaduct showcase](https://xeofoundry.github.io/xeoIFC/showcase/garabit/),
-8 IFC files with 15 million triangles and 678,768 rivets render at 60 fps in the browser on a laptop.
+**Extremely high performance in the browser, desktop and server.** Load the [Garabit viaduct showcase](https://xeofoundry.github.io/xeoIFC/showcase/garabit/),
+model directly in browser without installing anything.
 The command-line converter processed more than 2,200 real-world IFC files (95 GB) in under 20 minutes on one workstation.<br>
 [https://xeofoundry.github.io/xeoIFC/](https://xeofoundry.github.io/xeoIFC/)
 
@@ -37,7 +37,7 @@ View, split and merge IFC files
 
 
 ### Download for free
-[https://github.com/ifcquery/IfcSplitAndMerge/releases](https://github.com/ifcquery/IfcSplitAndMerge/releases) 
+[https://github.com/ifcquery/IfcSplitAndMerge/releases](https://github.com/ifcquery/IfcSplitAndMerge/releases)
 
 
 ### Example use case
@@ -74,7 +74,7 @@ https://github.com/user-attachments/files/15805837/ViadottoAcerno.zip
 
 ### Credits:
 
-this tool uses 
+this tool uses
  - https://github.com/ThatOpen/engine_web-ifc (with additional changes from https://github.com/Creoox/engine_web-ifc) for fast and robust loading and processing of IFC files.
  - Qt as GUI toolkit
  - OpenSceneGraph for the 3D view
@@ -103,7 +103,7 @@ advanced_model.ifc
 
 
 ### Example for full-text search
-Search for "new" in property sets 
+Search for "new" in property sets
 
 &nbsp; -> in this file, several elements have a property set with a property "Renovation Status": "New"
 
