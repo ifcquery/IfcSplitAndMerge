@@ -5,6 +5,14 @@ xeoIFC is newer, using the latest WebAssembly and WebGPU technology. The geometr
 Even the performance is better than basically all other IFC viewers:<br>
 [https://xeofoundry.github.io/xeoIFC/](https://xeofoundry.github.io/xeoIFC/)
 
+<p align="center">
+  <a href="https://xeofoundry.github.io/xeoIFC/"><img
+    src="https://xeofoundry.github.io/xeoIFC/showcase/readme/Garabit-viaduct-bearing-xeoIFC.webp"
+    width="100%" alt="xeoIFC viewer with the Garabit viaduct: a bearing of the arch, cut by a section plane"></a>
+</p>
+<p align="center"><sub>The Garabit viaduct in the xeoIFC viewer: 9 IFC files in one scene, 678,768 rivets.
+Source and downloads: <a href="https://github.com/xeofoundry/xeoIFC">github.com/xeofoundry/xeoIFC</a>.</sub></p>
+
 All the examples below for IfcSplitAndMerge also load, render, split & merge in xeoIFC.
 
 ---
