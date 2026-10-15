@@ -2,7 +2,9 @@
 
 xeoIFC is newer, using the latest WebAssembly and WebGPU technology. The geometry quality and robustness is better than IfcSplitAndMerge (this repo). 
 
-Even the performance is better than basically all other IFC viewers:<br>
+**Extremely high performance in the browser, desktop and server.** In the [Garabit viaduct showcase](https://xeofoundry.github.io/xeoIFC/showcase/garabit/),
+8 IFC files with 15 million triangles and 678,768 rivets render at 60 fps in the browser on a laptop.
+The command-line converter processed more than 2,200 real-world IFC files (95 GB) in under 20 minutes on one workstation.<br>
 [https://xeofoundry.github.io/xeoIFC/](https://xeofoundry.github.io/xeoIFC/)
 
 <p align="center">
