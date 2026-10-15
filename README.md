@@ -3,7 +3,7 @@
 xeoIFC is newer, using the latest WebAssembly and WebGPU technology. The geometry quality and robustness is better than IfcSplitAndMerge (this repo).
 
 **Extremely high performance in the browser, desktop and server.** Load IFC models like the [Garabit viaduct](https://xeofoundry.github.io/xeoIFC/showcase/garabit/)
-model directly in browser without installing anything.
+model directly in the browser without installing anything.
 The command-line converter processed more than 2,200 real-world IFC files (95 GB) in under 20 minutes on one workstation.<br>
 [https://xeofoundry.github.io/xeoIFC/](https://xeofoundry.github.io/xeoIFC/)
 
